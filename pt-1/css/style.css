@@ -1,0 +1,38 @@
+/* STARTER CODE */
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* NAVIGATION BAR */
+
+nav {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  line-height: 1.5;
+  padding-left: 0;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+  padding-left: 1em;
+}
+
+/* MAIN SECTION */
+
+img {
+  max-width: 100%;
+}
