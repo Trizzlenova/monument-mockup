@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  border: 1px solid purple;
 }
 
 .clearfix:after {
@@ -12,16 +13,18 @@
 
 /* NAVIGATION BAR */
 
-nav {
+nav, header {
   text-align: center;
 }
+
+
 
 a {
   text-decoration: none;
 }
 
 ul {
-  line-height: 1.5;
+  line-height: 1.5em;
   padding-left: 0;
 }
 
@@ -33,6 +36,18 @@ li {
 
 /* MAIN SECTION */
 
+main {
+  padding:0 2em;
+}
+
 img {
   max-width: 100%;
+}
+
+section {
+  width: 60%;
+}
+
+aside {
+  width: 30%;
 }
