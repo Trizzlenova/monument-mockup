@@ -20,6 +20,7 @@ nav, header {
 
 a {
   text-decoration: none;
+  color: rgb(194, 207, 215);
 }
 
 nav ul li {
@@ -35,6 +36,9 @@ ul {
 
 /* HEADER */
 
+h1 {
+  font-family: "Raleway";
+}
 
 /* MAIN SECTION */
 
@@ -43,12 +47,21 @@ main {
   padding-right: 10em;
 }
 
+h1, h2, h3, footer a {
+  color: rgb(69, 84, 94);
+  text-transform: uppercase;
+}
+
 img {
   max-width: 100%;
 }
 
 section {
   /*width: 60%;*/
+}
+
+p {
+  color: rgb(185, 191, 194);
 }
 
 /* ASIDE */
@@ -64,6 +77,10 @@ ul {
 /* FOOTER */
 
 footer {
+  background-color: rgb(206, 243, 246);
   text-align: center;
 }
 
+footer nav {
+  padding-bottom: 2em;
+}
