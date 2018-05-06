@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  /*border: 1px solid purple;*/
+  border: 1px solid purple;
   font-family: sans-serif;
 }
 
@@ -10,6 +10,16 @@
   display: table;
   clear: both;
   content: "";
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 /* NAVIGATION BAR */
@@ -36,59 +46,65 @@ ul {
 
 /* HEADER */
 
+header {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
 h1 {
   font-family: sans-serif;
   letter-spacing: 7px;
   font-size: 3.5em;
   margin: 0.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* MAIN SECTION */
 
 main {
+  position: relative;
   padding-left: 5em;
   padding-right: 5em;
+  width: 100%;
 }
 
-h1, h2, h3, footer a {
+h2, h3, footer a {
   color: rgb(69, 84, 94);
   text-transform: uppercase;
 }
 
-h3 {
-  font-size: 1.5em;
-  letter-spacing: 0.1em;
+section {
+  width: 60%;
+  float: left;
 }
 
 img {
   max-width: 100%;
 }
 
-section {
-  /*width: 60%;*/
-}
-
-p {
-  color: rgb(146, 156, 161);
-  font-family: 'Lato', sans-serif;
-}
-
 /* ASIDE */
 
 aside {
-  width: 30%;
-}
-
-ul {
-  padding-left: 2em;
+  width: 35%;
+  float: right;
+  padding-left: 1em;
 }
 
 /* FOOTER */
 
 footer {
+  display: block;
   background-color: rgb(206, 243, 246);
   text-align: center;
   padding-bottom: 1em;
+  width: 100%;
+  /*bottom: 0;*/
 }
 
 footer nav {
@@ -99,3 +115,21 @@ footer nav {
 span {
   color: rgb(69, 84, 94);;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
