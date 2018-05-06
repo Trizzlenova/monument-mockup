@@ -1,0 +1,196 @@
+/* STARTER CODE */
+
+* {
+  box-sizing: border-box;
+  border: 1px solid purple;
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* BODY */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#sticky, h1, h2, h3, .contact {
+  font-family: "Raleway";
+  font-weight: 600;
+}
+
+/* NAVIGATION BAR */
+
+#sticky {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  font-size: 1em;
+  top: 0;
+  z-index: 1;
+}
+
+nav, header {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(194, 207, 215);
+}
+
+nav ul li {
+  display: inline-block;
+  text-align: center;
+  padding: 0 5em;
+}
+
+ul {
+  color: rgb(194, 207, 215);
+  line-height: 1.5em;
+}
+
+p {
+  color: rgb(146, 156, 161);
+}
+
+/* HEADER */
+
+header {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 3em auto;
+  width: 90%;
+}
+
+h1 {
+  letter-spacing: 0.5em;
+  font-size: 3.5em;
+  margin: 0.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* MAIN SECTION */
+
+main {
+  margin: 3em auto;
+  width: 80%;
+  position: flex;
+  flex-direction: row;
+}
+
+h2, h3, footer a {
+  color: rgb(69, 84, 94);
+  text-transform: uppercase;
+}
+
+section {
+  width: 60%;
+  float: left;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* ASIDE */
+
+aside {
+  width: 35%;
+  float: right;
+  padding-left: 1em;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+/* COMMENT SECTION */
+.comment {
+  text-align: center;
+  position: flex;
+  margin: 0 auto;
+  width: 90%;
+}
+
+#first {
+  float: left;
+  width: 46%;
+}
+
+#second {
+  float: right;
+  width: 46%;
+}
+
+textarea {
+  padding: 2em;
+}
+
+input, textarea, button {
+  text-transform: uppercase;
+}
+
+
+
+/* FOOTER */
+
+footer {
+  display: block;
+  background-color: rgb(206, 243, 246);
+  margin: 0 auto;
+  padding-bottom: 1em;
+  width: 95%;
+}
+
+i {
+  font-size: 2em;
+}
+
+.contact button {
+  background-color: rgb(206, 243, 246);
+  border: 0.2em rgb(69, 84, 94) solid;
+  height: 3em;
+  width: 15%;
+  margin-left: 1em;
+  /* HOVER EFFECT */
+  -moz-transition: all .5s ease-in;
+  -o-transition: all .5s ease-in;
+  -webkit-transition: all .5s ease-in;
+  transition: all .5s ease-in;
+}
+
+.contact button:hover {
+  background-color: #45545e;
+  color: white;
+}
+
+.contact {
+  padding: 1em;
+  border-bottom: 0.1em solid #45545e;
+  font-size: 2em;
+}
+
+i {
+  padding-right: 1em;
+  padding-top: 1em;
+}
+
+input {
+  margin-right: 2em;
+  text-align: center;
+  height: 3em;
+  width: 30%;
+}
+
+span {
+  color: rgb(69, 84, 94);
+  display: block;
+  padding-top: 2em;
+  font-family: "Lato", sans-serif;
+}
