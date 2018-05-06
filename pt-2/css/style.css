@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  border: 1px solid purple;
+  /*border: 1px solid purple;*/
   font-family: sans-serif;
 }
 
@@ -12,14 +12,10 @@
   content: "";
 }
 
-html {
-  height: 100%;
-}
-
+/* BODY */
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100%;
 }
 
 /* NAVIGATION BAR */
@@ -36,7 +32,7 @@ a {
 nav ul li {
   display: inline-block;
   text-align: center;
-  padding-left: 1em;
+  padding: 0 5em;
 }
 
 ul {
@@ -50,13 +46,13 @@ header {
   position: relative;
   text-align: center;
   color: white;
-  padding-left: 3em;
-  padding-right: 3em;
+  margin: 0 auto;
+  width: 95%;
 }
 
 h1 {
   font-family: sans-serif;
-  letter-spacing: 7px;
+  letter-spacing: 0.5em;
   font-size: 3.5em;
   margin: 0.5em;
   position: absolute;
@@ -68,10 +64,11 @@ h1 {
 /* MAIN SECTION */
 
 main {
-  position: relative;
   padding-left: 5em;
   padding-right: 5em;
   width: 100%;
+  position: flex;
+  flex-direction: row;
 }
 
 h2, h3, footer a {
@@ -101,19 +98,45 @@ aside {
 footer {
   display: block;
   background-color: rgb(206, 243, 246);
-  text-align: center;
+  margin: 0 auto;
   padding-bottom: 1em;
-  width: 100%;
-  /*bottom: 0;*/
+  width: 95%;
 }
 
-footer nav {
-  padding-bottom: 1em;
-  font-weight: bold;
+i {
+  font-size: 2em;
+}
+
+button {
+  background-color: rgb(206, 243, 246);
+  border: 0.2em rgb(69, 84, 94) solid;
+  height: 3em;
+  width: 15%;
+}
+
+div {
+  padding: 1em;
+  border-bottom: 0.1em solid #45545e;
+  font-size: 2em;
+}
+
+i {
+  padding-right: 1em;
+  padding-top: 1em;
+}
+
+input {
+  padding-right: 1em;
+  margin: 1em;
+  text-align: center;
+  height: 3em;
+  width: 30%;
 }
 
 span {
-  color: rgb(69, 84, 94);;
+  color: rgb(69, 84, 94);
+  display: block;
+  padding-top: 2em;
 }
 
 
