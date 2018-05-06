@@ -45,7 +45,7 @@ a {
 nav ul li {
   display: inline-block;
   text-align: center;
-  padding: 0 5em;
+  padding: .5em 5em;
 }
 
 ul {
@@ -63,16 +63,16 @@ header {
   position: relative;
   text-align: center;
   color: white;
-  margin: .5em auto;
+  margin: 0 auto;
   width: 90%;
 }
 
 h1 {
   letter-spacing: 0.5em;
   font-size: 3.5em;
-  margin: 0.5em;
+  margin: .5em;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
