@@ -224,3 +224,98 @@ span {
   padding-top: 2em;
   font-family: "Lato", sans-serif;
 }
+
+.contact input {
+  border: none;
+}
+
+/* 856px breakpoint */
+
+@media screen and (max-width: 856px){
+
+  main {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  }
+
+  .one, .two, .three {
+  width: 70%;
+  display: block;
+  padding: 1em;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  article {
+    margin: auto;
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+/* 564px breakpoint */
+
+@media screen and (max-width: 564px){
+  p {
+    font-size: 1em;
+  }
+
+  header {
+    width: 100%;
+    display: relative;
+  }
+
+  header img {
+    height: cover;
+    width: cover;
+  }
+
+  header i {
+    padding-left: .75em;
+    font-size: 2em;
+    float: left;
+
+  }
+
+   .one, .two, .three {
+  width: 100%;
+  display: block;
+  padding: 1em;
+  }
+
+  #sticky {
+    display: none;
+  }
+
+  article h4 {
+    font-size: .7em;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+
+  #first, #second {
+    width: 100%;
+  }
+
+  .contact button, .contact input {
+    width: 50%;
+    font-size: .2em;
+  }
