@@ -27,7 +27,7 @@ body {
 #sticky {
   width: 100%;
   background-color: white;
-  /*position: fixed;*/
+  position: fixed;
   font-size: 1em;
   top: 0;
   z-index: 1;
@@ -75,6 +75,12 @@ h1 {
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+header i {
+  display: none;
+  position: absolute;
+  top: -.5em
 }
 
 /* MAIN SECTION */
@@ -241,10 +247,10 @@ span {
   text-align: center;
   }
 
-  .one, .two, .three {
-  width: 70%;
-  display: block;
-  padding: 1em;
+  article {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
   }
 
   h1 {
@@ -319,3 +325,16 @@ span {
     width: 50%;
     font-size: .2em;
   }
+
+  section {
+  width: 100%;
+}
+
+aside {
+  width: 100%;
+  /*float: right;*/
+  padding-left: 1em;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+}
